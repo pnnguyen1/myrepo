@@ -488,20 +488,22 @@ main {
   .hero {
     align-items: start;
     padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2.5rem;
   }
 
   .hero-plane {
-    inset: auto -20% 0 -10%;
-    height: 42%;
-    clip-path: polygon(0 28%, 100% 0, 100% 100%, 0 100%);
+    inset: auto -20% -6% -10%;
+    height: 18%;
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+    opacity: 0.85;
   }
 
   .hero-stat {
     position: relative;
     right: auto;
     bottom: auto;
-    margin-top: 3.5rem;
+    margin-top: 2.25rem;
+    margin-bottom: 1.5rem;
     text-align: left;
     color: var(--ink);
   }
