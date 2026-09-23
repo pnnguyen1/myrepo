@@ -70,7 +70,7 @@ app.innerHTML = `
           <span class="caption">Revenue change in 2025 → $618M</span>
         </div>
         <div class="figure">
-          <span class="value down" data-count="-32" data-prefix="$" data-suffix="M">$0M</span>
+          <span class="value down" data-count="32" data-prefix="−$" data-suffix="M">−$0M</span>
           <span class="caption">Net loss in 2025 (vs +$8M income in 2024)</span>
         </div>
         <div class="figure">
